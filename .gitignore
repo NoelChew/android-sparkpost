@@ -68,3 +68,9 @@ captures/
 .idea/modules.xml
 
 .idea/runConfigurations.xml
+
+.idea/libraries/androidasync_2_1_8.xml
+
+.idea/libraries/gson_2_3.xml
+
+.idea/libraries/ion_2_1_8.xml

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">library</string>
+    <!-- common -->
+    <string name="ncutils_yes">Yes</string>
+    <string name="ncutils_no">No</string>
+    <string name="ncutils_confirm">Confirm</string>
+    <string name="ncutils_cancel">Cancel</string>
+    <string name="ncutils_ok">OK</string>
+    <string name="ncutils_loading">Loading</string>
+    <string name="ncutils_please_wait">Please wait...</string>
+    <string name="ncutils_button_allow">Allow</string>
+    <string name="ncutils_button_deny">Deny</string>
+    <string name="ncutils_done">Done</string>
+    <string name="ncutils_error">Error occurred!</string>
+    <string name="ncutils_network_error">Network Error</string>
+    <string name="ncutils_comma">\u002c\u0020</string>
+</resources>
