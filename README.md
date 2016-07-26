@@ -17,7 +17,7 @@ allprojects {
 Application level gradle:
 ```
 dependencies {
-    compile 'com.github.noelchew:SparkPostUtil:0.1.0'
+    compile 'com.github.noelchew:android-sparkpost:0.1.0'
 }
 ```
 Note: do not add the jitpack.io repository under buildscript
