@@ -21,3 +21,8 @@ dependencies {
 }
 ```
 Note: do not add the jitpack.io repository under buildscript
+
+# Proguard
+```
+-keep class com.noelchew.sparkpostutil.library.** {*;}
+```
