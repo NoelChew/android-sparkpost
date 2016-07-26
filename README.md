@@ -1,4 +1,4 @@
-# SparkPostUtil
+# android-sparkpost
 Android Library for SparkPost -> Email Delivery Service & Transactional Email
 
 # Integration
