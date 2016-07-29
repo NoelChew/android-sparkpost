@@ -26,7 +26,8 @@ SparkPostEmailUtil.sendEmail(context,
 ```
 To start sending emails with your own domain, you will need to [create a sending domain].
 [create a sending domain]: https://support.sparkpost.com/customer/portal/articles/1933318-creating-sending-domains
-Else, you can only send up to 50 emails using anyname@sparkpost.com
+Else, you can only send [up to 50 emails using anyname@sparkpostbox.com]
+[up to 50 emails using anyname@sparkpostbox.com]: https://developers.sparkpost.com/api/index#header-rate-limiting
 
 # Integration
 This library is hosted by jitpack.io.
