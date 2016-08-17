@@ -1,5 +1,7 @@
-[![Release](https://jitpack.io/v/noelchew/android-sparkpost.svg)](https://jitpack.io/#noelchew/android-sparkpost)
 # android-sparkpost
+
+[![Release](https://jitpack.io/v/noelchew/android-sparkpost.svg)](https://jitpack.io/#noelchew/android-sparkpost)
+
 Android Library for SparkPost -> Email Delivery Service & Transactional Email
 
 ## How to Use
