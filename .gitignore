@@ -74,3 +74,5 @@ captures/
 .idea/libraries/gson_2_3.xml
 
 .idea/libraries/ion_2_1_8.xml
+
+.idea/vcs.xml
