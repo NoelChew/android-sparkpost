@@ -24,6 +24,7 @@ SparkPostEmailUtil.sendEmail(context,
                         }
                     });
 ```
+## Account Setup
 You will need to [create a SparkPost API key].
 [create a SparkPost API key]: https://support.sparkpost.com/customer/portal/articles/1933377-create-api-keys
 
