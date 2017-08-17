@@ -25,20 +25,15 @@ SparkPostEmailUtil.sendEmail(context,
                     });
 ```
 ## Account Setup
-You will need to [create a SparkPost API key].
-[create a SparkPost API key]: https://support.sparkpost.com/customer/portal/articles/1933377-create-api-keys
+You will need to [create a SparkPost API key](https://support.sparkpost.com/customer/portal/articles/1933377-create-api-keys)
 
-To start sending emails with your own domain, you will need to [create a sending domain].
-[create a sending domain]: https://support.sparkpost.com/customer/portal/articles/1933318-creating-sending-domains
+To start sending emails with your own domain, you will need to [create a sending domain](https://support.sparkpost.com/customer/portal/articles/1933318-creating-sending-domains)
 
-Next, you will need to [verify the sending domain].
-[verify the sending domain]: https://support.sparkpost.com/customer/portal/articles/1933360-verify-sending-domains
+Next, you will need to [verify the sending domain](https://support.sparkpost.com/customer/portal/articles/1933360-verify-sending-domains)
 
-With a verified sending domain, you can [send up to 100,000 emails a month].
-[send up to 100,000 emails a month]: https://www.sparkpost.com/pricing
+With a verified sending domain, you can [send up to 15,000 emails a month for free](https://www.sparkpost.com/pricing)
 
-Else, you can [send up to 50 emails using anyname@sparkpostbox.com]
-[send up to 50 emails using anyname@sparkpostbox.com]: https://developers.sparkpost.com/api/index#header-rate-limiting
+Else, you can [send 5 emails using anyname@sparkpostbox.com](https://developers.sparkpost.com/api/index#header-rate-limiting)
 
 ## Integration
 This library is hosted by jitpack.io.
