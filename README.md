@@ -34,8 +34,8 @@ To start sending emails with your own domain, you will need to [create a sending
 Next, you will need to [verify the sending domain].
 [verify the sending domain]: https://support.sparkpost.com/customer/portal/articles/1933360-verify-sending-domains
 
-With a verified sending domain, you can [send 15,000 emails for free].
-[send 15,000 emails for free]: https://www.sparkpost.com/pricing
+With a verified sending domain, you can [send 15,000 emails a month].
+[send 15,000 emails a month]: https://www.sparkpost.com/pricing
 
 Else, you can [send up to 5 emails using anyname@sparkpostbox.com]
 [send up to 5 emails using anyname@sparkpostbox.com]: https://developers.sparkpost.com/api/index#header-rate-limiting
