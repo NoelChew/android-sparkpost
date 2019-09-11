@@ -31,7 +31,7 @@ To start sending emails with your own domain, you will need to [create a sending
 
 Next, you will need to [verify the sending domain](https://support.sparkpost.com/customer/portal/articles/1933360-verify-sending-domains)
 
-With a verified sending domain, you can [send up to 15,000 emails a month for free](https://www.sparkpost.com/pricing)
+Using the "Test" plan, you can [send up to 500 emails/month or 100 emails/day for free](https://www.sparkpost.com/pricing)
 
 Else, you can [send 5 emails using anyname@sparkpostbox.com](https://developers.sparkpost.com/api/index#header-rate-limiting)
 
@@ -62,5 +62,4 @@ Note: do not add the jitpack.io repository under buildscript
 ```
 
 ## Disclaimer
-I am not in any way affiliated with SparkPost. I created this library because I failed to exclude their [java library] from my proguard configuration. Do shed some light if you have done it successfully.
-[java library]: https://github.com/SparkPost/java-sparkpost
+I am not in any way affiliated with SparkPost. You can also try using the [java library](https://github.com/SparkPost/java-sparkpost) by SparkPost.
