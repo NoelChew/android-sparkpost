@@ -51,7 +51,8 @@ allprojects {
 Application level gradle:
 ```
 dependencies {
-    compile 'com.github.noelchew:android-sparkpost:x.y.z'
+    implementation 'com.github.noelchew:android-sparkpost:x.y.z'
+    implementation 'com.koushikdutta.ion:ion:2.+'
 }
 ```
 Note: do not add the jitpack.io repository under buildscript
