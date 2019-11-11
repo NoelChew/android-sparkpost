@@ -45,10 +45,10 @@ public class SparkPostEmailUtil {
                         SparkPostResultWrapper requestResult = SparkPostResultWrapper.fromJson(result);
                         if (requestResult.getErrors() != null) {
                             if (!requestResult.getErrors().isEmpty()) {
-                                emailListener.onError(requestResult.getErrors().get(0).getMessage());
+                                emailListener.onError(new Throwable(requestResult.getErrors().get(0).getMessage()));
                                 return;
                             } else {
-                                emailListener.onError(context.getString(R.string.ncutils_error));
+                                emailListener.onError(new Throwable(context.getString(R.string.ncutils_error)));
                                 return;
                             }
                         } else if (requestResult.getResults().getTotal_rejected_recipients() == 0) {
@@ -56,12 +56,12 @@ public class SparkPostEmailUtil {
                             return;
                         }
                     }
-                    emailListener.onError("No response.");
+                    emailListener.onError(new Throwable("No response."));
 
 
                 } catch (Exception e1) {
                     e1.printStackTrace();
-                    emailListener.onError(e1.getMessage());
+                    emailListener.onError(e1);
                 }
             }
         };
