@@ -5,5 +5,5 @@ package com.noelchew.sparkpostutil.library;
  */
 public interface EmailListener {
     void onSuccess();
-    void onError(Throwable e);
+    void onError(String errorMessage);
 }
