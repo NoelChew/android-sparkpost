@@ -1,0 +1,5 @@
+<resources>
+    <string name="sparkpost_api_key" translatable="false"></string>
+    <string name="sparkpost_sender_email" translatable="false"></string>
+    <string name="sparkpost_recipient_email" translatable="false"></string>
+</resources>

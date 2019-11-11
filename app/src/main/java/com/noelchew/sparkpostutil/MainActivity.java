@@ -18,9 +18,6 @@ import com.noelchew.sparkpostutil.library.SparkPostSender;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
-    private static final String SPARKPOST_API_KEY = "insert_your_sparkpost_api_key_here";
-    private static final String SENDER_EMAIL = "sender@sparkpost.com";
-    private static final String RECIPIENT_EMAIL = "your_email@gmail.com";
     private static final String SUBJECT = "SparkPostUtil - Example";
     private static final String CONTENT = "https://github.com/NoelChew/SparkPostUtil";
 
@@ -40,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
         etContent = (EditText) findViewById(R.id.edit_text_content);
         btnSend = (Button) findViewById(R.id.button_send);
 
-        etSparkPostApiKey.setText(SPARKPOST_API_KEY);
-        etSenderEmail.setText(SENDER_EMAIL);
-        etRecipientEmail.setText(RECIPIENT_EMAIL);
+        etSparkPostApiKey.setText(getString(R.string.sparkpost_api_key));
+        etSenderEmail.setText(getString(R.string.sparkpost_sender_email));
+        etRecipientEmail.setText(getString(R.string.sparkpost_recipient_email));
         etSubject.setText(SUBJECT);
         etContent.setText(CONTENT);
 
@@ -79,15 +76,15 @@ public class MainActivity extends AppCompatActivity {
                         }
 
                         @Override
-                        public void onError(String errorMessage) {
+                        public void onError(Throwable e) {
                             if (progressDialog != null && progressDialog.isShowing()) {
                                 progressDialog.dismiss();
                             }
                             AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                             builder.setTitle("Error Sending Email")
-                                    .setMessage(errorMessage)
+                                    .setMessage(e.getMessage())
                                     .show();
-                            Log.e(TAG, "Error sending SparkPost email: " + errorMessage);
+                            Log.e(TAG, "Error sending SparkPost email: " + e.getMessage());
                         }
                     });
         }

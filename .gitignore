@@ -76,3 +76,4 @@ captures/
 .idea/libraries/ion_2_1_8.xml
 
 .idea/vcs.xml
+app/src/main/res/values-en/api_keys.xml
