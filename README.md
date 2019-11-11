@@ -52,7 +52,8 @@ Application level gradle:
 ```
 dependencies {
     implementation 'com.github.noelchew:android-sparkpost:x.y.z'
-    implementation 'com.koushikdutta.ion:ion:2.+'
+    implementation 'com.squareup.okhttp3:okhttp:4.2.2'
+    implementation 'com.google.code.gson:gson:2.8.6'
 }
 ```
 Note: do not add the jitpack.io repository under buildscript
